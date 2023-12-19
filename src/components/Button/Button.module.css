@@ -1,0 +1,24 @@
+.button {
+  background: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background 0.25s;
+  padding: 8px 30px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background: var(--primary-color-hover);
+}
+
+.buttonMd {
+  padding: 13px 14px;
+}
+
+.buttonXl {
+  padding: 20px 14px;
+  font-size: 15px;
+  text-transform: uppercase;
+}

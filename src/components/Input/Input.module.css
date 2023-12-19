@@ -1,0 +1,23 @@
+.input {
+  padding: 20px 22px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  /* color: var(--text-secondary); */
+  border-radius: 10px;
+  border: 1px solid var(--separator-color);
+  outline: none;
+}
+
+.input:focus,
+input:focus-visible {
+  border: 1px solid var(--primary-color);
+}
+
+.inputLabel {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--text-secondary);
+}

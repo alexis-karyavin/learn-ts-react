@@ -1,0 +1,25 @@
+:root {
+  --font: 'Open Sans';
+  --primary-color: #fe724c;
+  --primary-color-hover: #fe4e1e;
+  --text-secondary: #c4c4c4;
+  --white-color: #fff;
+  --text: #5b5b5e;
+  --separator-color: #d4d6e0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color: var(--text);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--primary-color-hover);
+}
