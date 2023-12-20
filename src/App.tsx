@@ -1,9 +1,12 @@
-import LoginForm from './layouts/LoginForm/LoginForm';
+// import LoginForm from './pages/LoginForm/LoginForm';
+
+import { RouterProvider } from 'react-router-dom';
+import router from './router';
 
 function App() {
   return (
     <>
-      <LoginForm />
+      <RouterProvider router={router} />
     </>
   );
 }

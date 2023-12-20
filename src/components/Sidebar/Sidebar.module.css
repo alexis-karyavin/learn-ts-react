@@ -1,0 +1,23 @@
+.sidebar {
+  width: 200px;
+  border-right: 1px solid var(--separator-color);
+  padding: 30px;
+  position: relative;
+}
+
+.avatar {
+  margin-bottom: 30px;
+}
+
+.name {
+  margin-bottom: 7px;
+}
+
+.btnLogout {
+  bottom: 30px;
+  position: absolute;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
